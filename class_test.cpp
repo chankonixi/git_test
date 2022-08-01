@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    //推送github
     circle c1;
     point p1;
     p1.setlocation(2,4);
