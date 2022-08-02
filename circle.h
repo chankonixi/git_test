@@ -13,6 +13,16 @@ public:
         cout << "circle的构造函数" <<endl;
     }
 
+    circle(int a)
+    {
+        cout << "circle的有参构造函数" <<endl;
+    }
+
+    circle(const circle &c)
+    {
+        cout<< "circle的拷贝构造函数" <<endl;
+    }
+
     ~circle()
     {
         cout << "circle的析构函数" <<endl;
