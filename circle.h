@@ -7,13 +7,22 @@ using namespace std;
 class circle
 {
 public:
-    //璁剧疆鍗婂緞
+    //构造函数
+    circle()
+    {
+        cout << "circle的构造函数" <<endl;
+    }
+
+    ~circle()
+    {
+        cout << "circle的析构函数" <<endl;
+    }
+
     void r2radius(int r)
     {
         radius = r;
     }
 
-    //鎵撳嵃鍗婂緞
     void printradius()
     {
         cout<<radius<<endl;
@@ -26,7 +35,6 @@ public:
         height = 7;
     }
 
-    //璁剧疆浣嶇疆
     void setlocation(int x, int y)
     {
         c_x = x;
