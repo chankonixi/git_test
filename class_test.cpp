@@ -7,7 +7,6 @@ using namespace std;
 
 int main()
 {
-
     // circle c1;
     // circle c2(10);
     // circle c3(c2);
@@ -19,5 +18,6 @@ int main()
     // c1.r2radius(1);
     // c1.determine(p1);
     diaoyong();
+    bool flag = true;
     return 0;
 }
