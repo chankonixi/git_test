@@ -30,6 +30,7 @@ public:
     }
     int getlocation()
     {
+        //test
         return p_x,p_y;
     }
 };
